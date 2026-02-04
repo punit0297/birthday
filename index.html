@@ -96,7 +96,7 @@
         <audio id="hbd-music" loop><source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" type="audio/mpeg"></audio>
 
         <section class="hero">
-            <p class="welcome-tag" id="tag">LEVEL_23_ACTIVE</p>
+            <p class="welcome-tag" id="tag">LEVEL_20_ACTIVE</p>
             <h1 class="main-name" id="hero-title">FLUSTOO</h1>
             <p style="margin-top: 20px; letter-spacing: 5px; opacity: 0.4;">SCROLL TO OPEN VAULTS</p>
         </section>
@@ -119,7 +119,9 @@
         <div id="reveal-zone">
             <h1 class="hbd-banner">HAPPY BIRTHDAY!</h1>
             <div class="video-box">
-                <video id="hbd-video" width="100%" controls><source src="https://youtu.be/o0htackbwWQ" type="video/mp4"></video>
+                <video id="hbd-video" width="100%" controls loop>
+                    <source src="1.mp4" type="video/mp4">
+                </video>
             </div>
             <h2 style="font-family: 'Orbitron'; color: var(--p2); margin-top: 30px; letter-spacing: 10px;">FLUSTOO THE BOSS</h2>
         </div>
@@ -170,7 +172,7 @@
 
         // --- 2. VAULT LOGIC ---
         const photoDB = {
-            'party': ['https://picsum.photos/800/600?r=1', 'https://picsum.photos/800/600?r=2'],
+            'party': ['1.jpg', 'https://picsum.photos/800/600?r=2'],
             'squad': ['https://picsum.photos/800/600?r=3'],
             'trips': ['https://picsum.photos/800/600?r=4'],
             'old': ['https://picsum.photos/800/600?r=5']
